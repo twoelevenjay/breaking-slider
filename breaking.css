@@ -8,3 +8,69 @@
  *
  * Contributing author: Leon Shelhamer (@twoelevenjay)
  */
+
+.news-paper {
+background-color: #f7f7f7;
+padding: 20px;
+border-radius: 120px 10px / 20px 90px;
+width: 100%;
+float: left;
+clear: both;
+color: #787878;
+border: 1px double #787878;
+-webkit-filter: blur(1px);
+-moz-filter: blur(1px);
+-o-filter: blur(1px);
+-ms-filter: blur(1px);
+filter: blur(1px);
+}
+
+.daily {
+margin-bottom: 20px;
+}
+
+.news-paper span {
+font-weight: bold;
+font-size: 35px;
+line-height: 1;
+text-align: center;
+display: block;
+border-radius: 70px 15px / 30px 100px;
+}
+
+.news-paper .daily span {
+border-top: 1px solid #787878;
+border-bottom: 1px solid #787878;
+font-size: 45px;
+line-height: 1.5;
+}
+
+.extra-img, .extra-extra {
+float: left;
+width: 23.5%;
+margin-right: 2%;
+overflow: hidden;
+border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+-moz-border-radius: 120px 10px / 10px 120px;
+-webkit-border-radius: 120px 10px / 10px 120px;
+border-radius: 120px 10px / 10px 120px;
+filter: grayscale(100%);
+filter: url(#greyscale);
+filter: gray;
+-webkit-filter: grayscale(1);
+opacity: .7;
+}
+
+.extra-img p, .extra-extra p {
+margin-top: 0;
+}
+
+.extra-img:nth-last-child(1), .extra-extra:nth-last-child(1) {
+margin-right: 0;
+}
+
+.extra-img img {
+width: 100%;
+height: auto;
+}

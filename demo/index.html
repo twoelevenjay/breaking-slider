@@ -46,63 +46,33 @@
 						Demo 1
 					</h2>
 					
-					<div class="news-paper">
+					<ul id="breaking">
 					
-						<div class="daily">
+						<li>
 						
-							<span>Metroland</span>
-			
-						</div><!--.daily-->
-					
-						<div class="front-page">
+							<h1>Time Union</h1>
 						
-							<span>Two Eleven Jay LLC creates AWESOME new slider!</span>
-			
-						</div><!--.front-page-->
-					
-						<div class="extra">
-					
-							<div class="extra-img">
+							<h2>Two Eleven Jay LLC creates AWESOME new slider!</h2>
 							
-								<img src="images/avatar.jpg" alt="Image" />
-								
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor laoreet enim ac lobortis. Quisque odio mauris, ornare id rutrum. </p>
-			
-							</div><!--.extra-img-->
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor laoreet enim ac lobortis. Quisque odio mauris, ornare id rutrum.</p>
+						
+							<img src="images/breaking-slider.jpg" alt="Image" />
+						
+						</li>
 					
-							<div class="extra-extra">
+						<li>
+						
+							<h1>Metroland</h1>
+						
+							<h2>The World realizes they don't mean that type of slider!</h2>
 							
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor laoreet enim ac lobortis. Quisque odio mauris, ornare id rutrum.</p>
-								
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor laoreet enim ac lobortis. Quisque odio mauris, ornare id rutrum.
-								
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor laoreet enim ac lobortis. Quisque odio mauris, ornare id rutrum.</p>
-			
-							</div><!--.extra-extra-->
-					
-							<div class="extra-extra">
-								
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor laoreet enim ac lobortis. Quisque odio mauris, ornare id rutrum.
-								
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor laoreet enim ac lobortis. Quisque odio mauris, ornare id rutrum.</p>
-								
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor laoreet enim ac lobortis. Quisque odio mauris, ornare id rutrum.</p>
-			
-							</div><!--.extra-extra-->
-					
-							<div class="extra-extra">
-							
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor laoreet enim ac lobortis. Quisque odio mauris, ornare id rutrum.</p>
-								
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor laoreet enim ac lobortis. Quisque odio mauris, ornare id rutrum.
-								
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor laoreet enim ac lobortis. Quisque odio mauris, ornare id rutrum.</p>
-			
-							</div><!--.extra-extra-->
-			
-						</div><!--.extra-->
-			
-					</div><!--.news-paper-->
+							<p>You can write any text n here you want, although it will just be repeated. Repeated enough to fill everything. We recommend this many characters.</p>
+						
+							<img src="images/breaking-slider.jpg" alt="Image" />
+						
+						</li>
+						
+					</ul>
 	
 				</div>
 				
@@ -111,10 +81,6 @@
 					<h2>
 						Demo 2
 					</h2>
-					
-					<div class="news-paper">
-			
-					</div><!--.news-paper-->
 	
 				</div>
 				
@@ -123,10 +89,6 @@
 					<h2>
 						Demo 3
 					</h2>
-					
-					<div class="news-paper">
-			
-					</div><!--.news-paper-->
 	
 				</div>
 				
@@ -135,10 +97,6 @@
 					<h2>
 						Demo 4
 					</h2>
-					
-					<div class="news-paper">
-			
-					</div><!--.news-paper-->
 	
 				</div>
 				
@@ -152,8 +110,17 @@
 		
 		<!-- jQuery -->
   		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  		<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
 		<!-- breakingSlider -->
-		<script defer src="../jquery.breaking-slider.js"></script>
+		<script src="../jquery.breaking.js"></script>
+					
+		<script type="text/javascript">
+			$(window).load(function(){
+				$('#breaking').breakingSlider({
+
+				});
+			});
+		</script>
 		
 	</body>
 	

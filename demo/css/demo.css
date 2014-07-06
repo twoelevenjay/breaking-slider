@@ -49,12 +49,13 @@ border-right: 1px solid #fff;
 background: #8784b9;
 }
 
-#content {
-clear: left;
-padding: 20px;
+.content {
+float: left;
+width: 100%;
+margin-bottom: 20px;
 }
 
-#content h2 {
+.content h2 {
 color: #000;
 font-size: 160%;
 margin: 0 0 20px;
@@ -65,4 +66,5 @@ background: #849fb9;
 text-align: right;
 padding: 20px;
 height: 1%;
+clear: both;
 }
